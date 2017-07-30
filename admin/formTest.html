@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+<form id="myForm">
+	<input type="text" name="name" placeholder="Enter your name" required> <br>
+	<input type="text" name="phome" required><br>
+	<button>Send</button>
+
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$('#myForm').submit(function(){
+		$.ajax({
+			type:"POST",
+			url: "proc.php",
+			data: $(this).serialize()
+		}).done(function(){
+			alert("Форма отправлена!");
+		});
+		return false;
+
+	});
+
+	});
+
+</script>
+</body>
+</html>
