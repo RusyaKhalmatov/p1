@@ -23,24 +23,7 @@
  <!--End of Header-->
 
 
-    <!--div class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Главная</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Наши услуги <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Создание сайтов</a></li>
-          <li><a href="#">Пусто</a></li>
-          <li><a href="#">Пусто</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Примеры</a></li>
-      <li><a href="#">Оставить заявку</a></li>
-    </ul>
-  </div>
+    
 </div-->
     
     <!--Navigation-->
